@@ -1,0 +1,6 @@
+#import tarfile
+
+from mnist import MNIST
+mndata = MNIST('./mnistfiles')
+mndata.load_training()
+mndata.load_testing()
